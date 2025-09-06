@@ -77,6 +77,22 @@ Our proposed idea of the MargDarshan system takes into consideration the student
 - K Nearest Neighbors
 
 #### Working Flow:
+```mermaid
+graph TD
+    A[Data Collection] --> B[Data PreProcessing]
+    B --> C[OneHot Encoding]
+    C -->|One| D[Decision Tree]
+    C -->|Two| E[Decision Tree Entropy]
+    C -->|Three| F[SVM]
+    C -->|Four| G[Random Forest Classifier]
+    C -->|Five| H[KNN]
+    D --> I[Training & Testing]
+    E --> I[Training & Testing]
+    F --> I[Training & Testing]
+    G --> I[Training & Testing]
+    H --> I[Training & Testing]
+    I --> J[Result]
+
 
 - Data collection: Find an appropriate dataset with appropriate parameters like academic scores, specialisation programs, analytic capabilities, personal details like hobbies, workshops, certifications, books interested, etc.
 
