@@ -91,7 +91,8 @@ graph TD
     F --> I[Training & Testing]
     G --> I[Training & Testing]
     H --> I[Training & Testing]
-    I --> J["Result - Data collection: Fin"]
+    I --> J["Result - Data collection finished"]
+
 
 - Data collection: Find an appropriate dataset with appropriate parameters like academic scores, specialisation programs, analytic capabilities, personal details like hobbies, workshops, certifications, books interested, etc.
 
