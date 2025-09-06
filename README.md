@@ -78,26 +78,6 @@ Our proposed idea of the MargDarshan system takes into consideration the student
 
 #### Working Flow:
 
-Here is a simple flow chart:
-
-```mermaid
-graph TD
-    A[Data Collection] --> B[Data PreProcessing]
-    B --> C[OneHot Encoding]
-    C -->|One| D[Decision Tree]
-    C -->|Two| E[Decision Tree Entropy]
-    C -->|Three| F[SVM]
-    C -->|Four| G[Random Forest Classifier]
-    C -->|Five| H[KNN]
-    D -->I[Training & Testing]
-    E -->I[Training & Testing]
-    F -->I[Training & Testing]
-    G -->I[Training & Testing]
-    H -->I[Training & Testing]
-    I -->J[Result]
-
-```
-
 - Data collection: Find an appropriate dataset with appropriate parameters like academic scores, specialisation programs, analytic capabilities, personal details like hobbies, workshops, certifications, books interested, etc.
 
 - Data Pre-processing: Make the acquired data set in an organised format. Cleaning the null values, invalid data values, and unwanted data.
